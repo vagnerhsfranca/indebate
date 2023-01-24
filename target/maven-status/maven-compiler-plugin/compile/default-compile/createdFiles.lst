@@ -1,0 +1,6 @@
+com\ifpe\dsc\indebate\model\Debate.class
+com\ifpe\dsc\indebate\model\Pessoa.class
+com\ifpe\dsc\indebate\controller\TesteJpa.class
+com\ifpe\dsc\indebate\model\Endereco.class
+com\ifpe\dsc\indebate\model\Partido.class
+com\ifpe\dsc\indebate\model\Politico.class

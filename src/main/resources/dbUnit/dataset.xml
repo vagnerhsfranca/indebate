@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+<dataset>
+    <!-- PARTIDO -->
+    <tb_partido partido_txt_nome="Partido Do Povo"/>
+    <tb_partido partido_txt_nome="Partido Da Galera"/>
+    <tb_partido partido_txt_nome="Partido Do Velho"/>
+    <tb_partido partido_txt_nome="Partido Do Novo"/>
+    <tb_partido partido_txt_nome="Partido Rural"/>
+    <tb_partido partido_txt_nome="Partido Da Cidade"/>
+    <tb_partido partido_txt_nome="Partido Vazio"/>
+    <tb_partido partido_txt_nome="Partido dos gamers"/>
+    <tb_partido partido_txt_nome="Partido dos kids"/>
+    <tb_partido partido_txt_nome="Partido dos lacradores"/>
+    <!-- /PARTIDO -->
+    
+    <!-- POLITICO -->
+    <tb_pessoa pessoa_disc="POL" pessoa_txt_nome="Politico do Povo"/>
+    <tb_politico pessoa_id="1" politico_txt_cargo="Vereador" partido_id="1"/>
+    
+    <tb_pessoa pessoa_disc="POL" pessoa_txt_nome="Presidente do Povo"/>
+    <tb_politico pessoa_id="2" politico_txt_cargo="Presidente" partido_id="1"/>
+    
+    <tb_pessoa pessoa_disc="POL" pessoa_txt_nome="Politico da Galera"/>
+    <tb_politico pessoa_id="3" politico_txt_cargo="Acessor" partido_id="2"/>
+    
+    <tb_pessoa pessoa_disc="POL" pessoa_txt_nome="Presidente da Galera"/>
+    <tb_politico pessoa_id="4" politico_txt_cargo="Presidente" partido_id="2"/>
+    
+    <tb_pessoa pessoa_disc="POL" pessoa_txt_nome="Politico do Velho"/>
+    <tb_politico pessoa_id="5" politico_txt_cargo="Vereador" partido_id="3"/>
+    
+    <tb_pessoa pessoa_disc="POL" pessoa_txt_nome="Presidente do Velho"/>
+    <tb_politico pessoa_id="6" politico_txt_cargo="Presidente" partido_id="3"/>
+    
+    <tb_pessoa pessoa_disc="POL" pessoa_txt_nome="Politico do Novo"/>
+    <tb_politico pessoa_id="7" politico_txt_cargo="Dep. Federal" partido_id="4"/>
+    
+    <tb_pessoa pessoa_disc="POL" pessoa_txt_nome="Presidente do Novo"/>
+    <tb_politico pessoa_id="8" politico_txt_cargo="Presidente" partido_id="4"/>
+    
+    <tb_pessoa pessoa_disc="POL" pessoa_txt_nome="Politico Rural"/>
+    <tb_politico pessoa_id="9" politico_txt_cargo="Dep. Federal" partido_id="5"/>
+    
+    <tb_pessoa pessoa_disc="POL" pessoa_txt_nome="Presidente Rural"/>
+    <tb_politico pessoa_id="10" politico_txt_cargo="Presidente" partido_id="5"/>
+    
+    <tb_pessoa pessoa_disc="POL" pessoa_txt_nome="Outro Politico Rural"/>
+    <tb_politico pessoa_id="11" politico_txt_cargo="Vereador" partido_id="5"/>
+    
+    <tb_pessoa pessoa_disc="POL" pessoa_txt_nome="Politico da Cidade"/>
+    <tb_politico pessoa_id="12" politico_txt_cargo="Acessor" partido_id="6"/>
+    
+    <tb_pessoa pessoa_disc="POL" pessoa_txt_nome="Presidente da Cidade"/>
+    <tb_politico pessoa_id="13" politico_txt_cargo="Presidente" partido_id="6"/>
+    
+    <tb_pessoa pessoa_disc="POL" pessoa_txt_nome="Outro Politico da Cidade"/>
+    <tb_politico pessoa_id="14" politico_txt_cargo="Dep. Estadual" partido_id="6"/>
+    
+    <tb_pessoa pessoa_disc="POL" pessoa_txt_nome="Politico press F"/>
+    <tb_politico pessoa_id="15" politico_txt_cargo="Dep. Estadual" partido_id="6"/>
+    
+    <tb_pessoa pessoa_disc="POL" pessoa_txt_nome="Politico o gamer"/>
+    <tb_politico pessoa_id="16" politico_txt_cargo="Dep. Estadual" partido_id="6"/>
+    
+    <tb_pessoa pessoa_disc="POL" pessoa_txt_nome="Politico o noob"/>
+    <tb_politico pessoa_id="17" politico_txt_cargo="Dep. Estadual" partido_id="6"/>
+    <!-- /POLITICO -->
+    
+    <!-- DABATE -->
+    <tb_debate debate_txt_titulo="Agro é pop" data="2022-08-10" end_txt_bairro="Santo Amaro" end_txt_cep="50030-230" end_txt_cidade="Recife" end_txt_estado="Pernambuco" end_txt_logradouro="R. da Aurora" end_numero="1027" />
+    <debate_categorias debate_id="1" debate_txt_categorias="Agropecuaria" />
+    <debate_categorias debate_id="1" debate_txt_categorias="Setor Primário" />
+    <debate_categorias debate_id="1" debate_txt_categorias="Exportação" />
+    <debate_participantes debate_id="1" politico_participante_id="9" />
+    <debate_participantes debate_id="1" politico_participante_id="10" />
+    <debate_participantes debate_id="1" politico_participante_id="11" />
+    <debate_participantes debate_id="1" politico_participante_id="12" />
+    <debate_participantes debate_id="1" politico_participante_id="13" />
+    <debate_participantes debate_id="1" politico_participante_id="14" />
+    
+    <tb_debate debate_txt_titulo="Tecnologia" data="2022-12-12" end_txt_bairro="Santo Amaro" end_txt_cep="50030-230" end_txt_cidade="Recife" end_txt_estado="Pernambuco" end_txt_logradouro="R. da Aurora" end_numero="1027"/>
+    <debate_categorias debate_id="2" debate_txt_categorias="Inovação" />
+    <debate_categorias debate_id="2" debate_txt_categorias="Futuro" />
+    <debate_categorias debate_id="2" debate_txt_categorias="Capacitação" />
+    <debate_participantes debate_id="2" politico_participante_id="5" />
+    <debate_participantes debate_id="2" politico_participante_id="6" />
+    <debate_participantes debate_id="2" politico_participante_id="7" />
+    <debate_participantes debate_id="2" politico_participante_id="8" />
+    
+    <tb_debate debate_txt_titulo="Crescimento do agro no Brasil" data="2022-09-10" end_txt_bairro="Santo Amaro" end_txt_cep="50030-230" end_txt_cidade="Recife" end_txt_estado="Pernambuco" end_txt_logradouro="R. da Aurora" end_numero="1027" />
+    <debate_categorias debate_id="3" debate_txt_categorias="Agropecuaria" />
+    <debate_categorias debate_id="3" debate_txt_categorias="Setor Primário" />
+    <debate_categorias debate_id="3" debate_txt_categorias="Exportação" />
+    <debate_participantes debate_id="3" politico_participante_id="9" />
+    <debate_participantes debate_id="3" politico_participante_id="10" />
+    <debate_participantes debate_id="3" politico_participante_id="11" />
+    <debate_participantes debate_id="3" politico_participante_id="12" />
+    <debate_participantes debate_id="3" politico_participante_id="13" />
+    <debate_participantes debate_id="3" politico_participante_id="14" />
+    <!-- /DABATE -->
+
+    
+</dataset>
+

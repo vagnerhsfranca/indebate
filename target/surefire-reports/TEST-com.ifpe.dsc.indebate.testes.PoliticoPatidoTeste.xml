@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="com.ifpe.dsc.indebate.testes.PoliticoPatidoTeste" time="9.668" errors="2" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.15.1+2-LTS-10"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.15.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\vagne\OneDrive\Documentos\NetBeansProjects\indebate"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="test" value="com.ifpe.dsc.indebate.testes.PoliticoPatidoTeste"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\vagne\OneDrive\Documentos\NetBeansProjects\indebate"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.15.1+2-LTS-10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\vagne\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="maven.ext.class.path" value="C:\Users\vagne\OneDrive\Documentos\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Users\vagne\OneDrive\Documentos\netbeans\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.15.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\binaries\php\php_runningversion;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\vagne\AppData\Local\Microsoft\WindowsApps;C:\wamp64\bin\php\php5.6.40;C:\Users\vagne\AppData\Local\ComposerSetup\bin;C:\Users\vagne\AppData\Roaming\Composer\vendor\bin;."/>
+    <property name="maven.conf" value="C:\Users\vagne\OneDrive\Documentos\netbeans\java\maven/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\vagne\OneDrive\Documentos\netbeans\java\maven\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\vagne"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="Vagner França"/>
+    <property name="java.class.path" value="C:\Users\vagne\OneDrive\Documentos\netbeans\java\maven\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.ifpe.dsc.indebate.testes.PoliticoPatidoTeste -Dmaven.ext.class.path=C:\Users\vagne\OneDrive\Documentos\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.15.1"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.15.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\vagne\OneDrive\Documentos\netbeans\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.ifpe.dsc.indebate.testes.PoliticoPatidoTeste" name="com.ifpe.dsc.indebate.testes.PoliticoPatidoTeste" time="4.833">
+    <error message="Exception [EclipseLink-4002] (Eclipse Persistence Services - 3.0.2.v202107160933): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: java.sql.SQLNonTransientConnectionException: java.net.ConnectException : Erro ao conectar no servidor &apos;localhost&apos; porta &apos;1.527&apos;. Recebida a mensagem: &apos;Connection refused: connect&apos;.
+Error Code: 40000" type="jakarta.persistence.PersistenceException">jakarta.persistence.PersistenceException: Exception [EclipseLink-4002] (Eclipse Persistence Services - 3.0.2.v202107160933): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: java.sql.SQLNonTransientConnectionException: java.net.ConnectException : Erro ao conectar no servidor &apos;localhost&apos; porta &apos;1.527&apos;. Recebida a mensagem: &apos;Connection refused: connect&apos;.
+Error Code: 40000
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.deploy(EntityManagerSetupImpl.java:860)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.getAbstractSession(EntityManagerFactoryDelegate.java:222)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryDelegate.getDatabaseSession(EntityManagerFactoryDelegate.java:200)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryImpl.getDatabaseSession(EntityManagerFactoryImpl.java:542)
+	at org.eclipse.persistence.jpa.PersistenceProvider.createEntityManagerFactoryImpl(PersistenceProvider.java:153)
+	at org.eclipse.persistence.jpa.PersistenceProvider.createEntityManagerFactory(PersistenceProvider.java:191)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:80)
+	at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at com.ifpe.dsc.indebate.testes.Teste.setUpClass(Teste.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: Exception [EclipseLink-4002] (Eclipse Persistence Services - 3.0.2.v202107160933): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: java.sql.SQLNonTransientConnectionException: java.net.ConnectException : Erro ao conectar no servidor &apos;localhost&apos; porta &apos;1.527&apos;. Recebida a mensagem: &apos;Connection refused: connect&apos;.
+Error Code: 40000
+	at org.eclipse.persistence.exceptions.DatabaseException.sqlException(DatabaseException.java:334)
+	at org.eclipse.persistence.exceptions.DatabaseException.sqlException(DatabaseException.java:329)
+	at org.eclipse.persistence.sessions.DefaultConnector.connect(DefaultConnector.java:142)
+	at org.eclipse.persistence.sessions.DatasourceLogin.connectToDatasource(DatasourceLogin.java:172)
+	at org.eclipse.persistence.internal.databaseaccess.DatasourceAccessor.connectInternal(DatasourceAccessor.java:359)
+	at org.eclipse.persistence.internal.databaseaccess.DatabaseAccessor.connectInternal(DatabaseAccessor.java:316)
+	at org.eclipse.persistence.internal.databaseaccess.DatasourceAccessor.connect(DatasourceAccessor.java:451)
+	at org.eclipse.persistence.sessions.server.ConnectionPool.buildConnection(ConnectionPool.java:219)
+	at org.eclipse.persistence.sessions.server.ConnectionPool.startUp(ConnectionPool.java:507)
+	at org.eclipse.persistence.sessions.server.ServerSession.connect(ServerSession.java:530)
+	at org.eclipse.persistence.internal.sessions.DatabaseSessionImpl.login(DatabaseSessionImpl.java:822)
+	at org.eclipse.persistence.internal.jpa.EntityManagerFactoryProvider.login(EntityManagerFactoryProvider.java:263)
+	at org.eclipse.persistence.internal.jpa.EntityManagerSetupImpl.deploy(EntityManagerSetupImpl.java:771)
+	... 32 more
+Caused by: java.sql.SQLNonTransientConnectionException: java.net.ConnectException : Erro ao conectar no servidor &apos;localhost&apos; porta &apos;1.527&apos;. Recebida a mensagem: &apos;Connection refused: connect&apos;.
+	at org.apache.derby.client.am.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.client.am.SqlException.getSQLException(Unknown Source)
+	at org.apache.derby.jdbc.ClientDriver.connect(Unknown Source)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:189)
+	at org.eclipse.persistence.sessions.DefaultConnector.connect(DefaultConnector.java:102)
+	... 42 more
+Caused by: ERROR 08001: java.net.ConnectException : Erro ao conectar no servidor &apos;localhost&apos; porta &apos;1.527&apos;. Recebida a mensagem: &apos;Connection refused: connect&apos;.
+	at org.apache.derby.client.net.NetAgent.&lt;init&gt;(Unknown Source)
+	at org.apache.derby.client.net.NetConnection.newAgent_(Unknown Source)
+	at org.apache.derby.client.am.ClientConnection.&lt;init&gt;(Unknown Source)
+	at org.apache.derby.client.net.NetConnection.&lt;init&gt;(Unknown Source)
+	at org.apache.derby.client.net.ClientJDBCObjectFactoryImpl.newNetConnection(Unknown Source)
+	... 46 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/java.net.Socket.connect(Socket.java:557)
+	at java.base/java.net.Socket.&lt;init&gt;(Socket.java:453)
+	at java.base/java.net.Socket.&lt;init&gt;(Socket.java:230)
+	at java.base/javax.net.DefaultSocketFactory.createSocket(SocketFactory.java:271)
+	at org.apache.derby.client.net.OpenSocketAction.run(Unknown Source)
+	at org.apache.derby.client.net.OpenSocketAction.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	... 51 more
+</error>
+    <system-out>[EL Fine]: server: 2023-01-02 18:24:16.967--Thread(Thread[main,5,main])--Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
+[EL Config]: metadata: 2023-01-02 18:24:17.078--ServerSession(812553708)--Thread(Thread[main,5,main])--The access type for the persistent class [class com.ifpe.dsc.indebate.model.Debate] is set to [FIELD].
+[EL Config]: metadata: 2023-01-02 18:24:17.097--ServerSession(812553708)--Thread(Thread[main,5,main])--The target class (reference) class for the element collection mapping element [field categorias] is being defaulted to: class java.lang.String.
+[EL Config]: metadata: 2023-01-02 18:24:17.101--ServerSession(812553708)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field mediador] is being defaulted to: class com.ifpe.dsc.indebate.model.Pessoa.
+[EL Config]: metadata: 2023-01-02 18:24:17.103--ServerSession(812553708)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to many mapping element [field participantes] is being defaulted to: class com.ifpe.dsc.indebate.model.Politico.
+[EL Config]: metadata: 2023-01-02 18:24:17.104--ServerSession(812553708)--Thread(Thread[main,5,main])--The access type for the persistent class [class com.ifpe.dsc.indebate.model.Politico] is set to [FIELD].
+[EL Config]: metadata: 2023-01-02 18:24:17.104--ServerSession(812553708)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to many mapping element [field debates] is being defaulted to: class com.ifpe.dsc.indebate.model.Debate.
+[EL Config]: metadata: 2023-01-02 18:24:17.104--ServerSession(812553708)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field partido] is being defaulted to: class com.ifpe.dsc.indebate.model.Partido.
+[EL Config]: metadata: 2023-01-02 18:24:17.104--ServerSession(812553708)--Thread(Thread[main,5,main])--The access type for the persistent class [class com.ifpe.dsc.indebate.model.Partido] is set to [FIELD].
+[EL Config]: metadata: 2023-01-02 18:24:17.105--ServerSession(812553708)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field membros] is being defaulted to: class com.ifpe.dsc.indebate.model.Politico.
+[EL Config]: metadata: 2023-01-02 18:24:17.106--ServerSession(812553708)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to one mapping element [field presidente] is being defaulted to: class com.ifpe.dsc.indebate.model.Politico.
+[EL Config]: metadata: 2023-01-02 18:24:17.106--ServerSession(812553708)--Thread(Thread[main,5,main])--The access type for the persistent class [class com.ifpe.dsc.indebate.model.Endereco] is set to [FIELD].
+[EL Config]: metadata: 2023-01-02 18:24:17.107--ServerSession(812553708)--Thread(Thread[main,5,main])--The alias name for the entity class [class com.ifpe.dsc.indebate.model.Debate] is being defaulted to: Debate.
+[EL Config]: metadata: 2023-01-02 18:24:17.117--ServerSession(812553708)--Thread(Thread[main,5,main])--The column name for element [data] is being defaulted to: DATA.
+[EL Config]: metadata: 2023-01-02 18:24:17.119--ServerSession(812553708)--Thread(Thread[main,5,main])--The alias name for the entity class [class com.ifpe.dsc.indebate.model.Pessoa] is being defaulted to: Pessoa.
+[EL Config]: metadata: 2023-01-02 18:24:17.121--ServerSession(812553708)--Thread(Thread[main,5,main])--The alias name for the entity class [class com.ifpe.dsc.indebate.model.Politico] is being defaulted to: Politico.
+[EL Config]: metadata: 2023-01-02 18:24:17.121--ServerSession(812553708)--Thread(Thread[main,5,main])--The alias name for the entity class [class com.ifpe.dsc.indebate.model.Partido] is being defaulted to: Partido.
+[EL Fine]: metadata: 2023-01-02 18:24:17.133--Thread(Thread[main,5,main])--java.lang.ClassNotFoundException: java.util.Listjava.lang.String
+[EL Info]: 2023-01-02 18:24:17.336--ServerSession(812553708)--Thread(Thread[main,5,main])--EclipseLink, version: Eclipse Persistence Services - 3.0.2.v202107160933
+[EL Fine]: connection: 2023-01-02 18:24:17.345--ServerSession(812553708)--Connection(1112527632)--Thread(Thread[main,5,main])--connecting(DatabaseLogin(
+	platform=&gt;DerbyPlatform
+	user name=&gt; &quot;app&quot;
+	datasource URL=&gt; &quot;jdbc:derby://localhost:1527/indebate;create=true&quot;
+))
+[EL Severe]: 2023-01-02 18:24:21.514--ServerSession(812553708)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 3.0.2.v202107160933): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: java.sql.SQLNonTransientConnectionException: java.net.ConnectException : Erro ao conectar no servidor &apos;localhost&apos; porta &apos;1.527&apos;. Recebida a mensagem: &apos;Connection refused: connect&apos;.
+Error Code: 40000
+[EL Severe]: ejb: 2023-01-02 18:24:21.516--ServerSession(812553708)--Thread(Thread[main,5,main])--Exception [EclipseLink-4002] (Eclipse Persistence Services - 3.0.2.v202107160933): org.eclipse.persistence.exceptions.DatabaseException
+Internal Exception: java.sql.SQLNonTransientConnectionException: java.net.ConnectException : Erro ao conectar no servidor &apos;localhost&apos; porta &apos;1.527&apos;. Recebida a mensagem: &apos;Connection refused: connect&apos;.
+Error Code: 40000
+</system-out>
+  </testcase>
+  <testcase classname="com.ifpe.dsc.indebate.testes.PoliticoPatidoTeste" name="com.ifpe.dsc.indebate.testes.PoliticoPatidoTeste" time="4.835">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.ifpe.dsc.indebate.testes.Teste.tearDownClass(Teste.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.RunAfters.invokeMethod(RunAfters.java:46)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+  </testcase>
+</testsuite>
