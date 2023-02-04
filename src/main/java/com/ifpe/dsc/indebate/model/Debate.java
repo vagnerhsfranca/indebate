@@ -16,6 +16,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.JoinTable;
+import jakarta.persistence.Lob;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.NamedQueries;
@@ -61,10 +62,25 @@ public class Debate implements Serializable{
     )
     private List <Politico> participantes;
     
+    @ManyToMany @JoinTable(
+        name = "debate_reportes",
+        joinColumns = @JoinColumn(name = "debate_id", referencedColumnName = "debate_id"),
+        inverseJoinColumns = @JoinColumn(name = "reporter_participante_id", referencedColumnName = "pessoa_id")
+    )
+    private List <Reporter> reportes;
+    
     @ElementCollection @CollectionTable(name = "debate_categorias", 
             joinColumns = @JoinColumn(name = "debate_id", referencedColumnName = "debate_id")) 
     @Column (name = "debate_txt_categorias")
     private List<String> categorias;
+    
+    @Column (name = "debate_capacidade")
+    private int capacidade;
+    
+    @Column (name = "debate_descricao")
+    private String descricao;
+    
+    private String metadata;
     
     @Embedded
     protected Endereco endereco;
@@ -125,21 +141,54 @@ public class Debate implements Serializable{
         this.categorias = categorias;
     }
 
-    @Override
-    public String toString() {
-        return "Debate{" + "id=" + id + ", mediador=" + mediador + ", titulo=" + titulo + ", data=" + data + ", participantes=" + participantes + ", categorias=" + categorias + ", endereco=" + endereco + '}';
+    public List<Reporter> getReportes() {
+        return reportes;
+    }
+
+    public void setReportes(List<Reporter> reportes) {
+        this.reportes = reportes;
+    }
+
+    public String getMetadata() {
+        return metadata;
+    }
+
+    public void setMetadata(String metadata) {
+        this.metadata = metadata;
+    }
+
+    public int getCapacidade() {
+        return capacidade;
+    }
+
+    public void setCapacidade(int capacidade) {
+        this.capacidade = capacidade;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 
     @Override
+    public String toString() {
+        return "Debate{" + "id=" + id + ", mediador=" + mediador + ", titulo=" + titulo + ", data=" + data + ", participantes=" + participantes + ", categorias=" + categorias + ", metadata=" + metadata + ", endereco=" + endereco + '}';
+    }
+    
+    @Override
     public int hashCode() {
-        int hash = 5;
-        hash = 97 * hash + this.id;
-        hash = 97 * hash + Objects.hashCode(this.mediador);
-        hash = 97 * hash + Objects.hashCode(this.titulo);
-        hash = 97 * hash + Objects.hashCode(this.data);
-        hash = 97 * hash + Objects.hashCode(this.participantes);
-        hash = 97 * hash + Objects.hashCode(this.categorias);
-        hash = 97 * hash + Objects.hashCode(this.endereco);
+        int hash = 7;
+        hash = 53 * hash + this.id;
+        hash = 53 * hash + Objects.hashCode(this.mediador);
+        hash = 53 * hash + Objects.hashCode(this.titulo);
+        hash = 53 * hash + Objects.hashCode(this.data);
+        hash = 53 * hash + Objects.hashCode(this.participantes);
+        hash = 53 * hash + Objects.hashCode(this.categorias);
+        hash = 53 * hash + Objects.hashCode(this.metadata);
+        hash = 53 * hash + Objects.hashCode(this.endereco);
         return hash;
     }
 
@@ -161,6 +210,9 @@ public class Debate implements Serializable{
         if (!Objects.equals(this.titulo, other.titulo)) {
             return false;
         }
+        if (!Objects.equals(this.metadata, other.metadata)) {
+            return false;
+        }
         if (!Objects.equals(this.mediador, other.mediador)) {
             return false;
         }
@@ -175,6 +227,8 @@ public class Debate implements Serializable{
         }
         return Objects.equals(this.endereco, other.endereco);
     }
+
+    
     
     
 }

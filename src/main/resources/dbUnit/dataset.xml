@@ -68,10 +68,39 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
     
     <tb_pessoa pessoa_disc="POL" pessoa_txt_nome="Politico o noob"/>
     <tb_politico pessoa_id="17" politico_txt_cargo="Dep. Estadual" partido_id="6"/>
+    
     <!-- /POLITICO -->
     
+    <!--REPORTER -->
+    
+    <tb_pessoa pessoa_disc="REP" pessoa_txt_nome="Jão Pedro"/>
+    <tb_reporter pessoa_id="18" reporter_txt_jornal="Globo"/>
+    
+    <tb_pessoa pessoa_disc="REP" pessoa_txt_nome="Gustavo Pedro"/>
+    <tb_reporter pessoa_id="19" reporter_txt_jornal="SBT"/>
+    
+    <tb_pessoa pessoa_disc="REP" pessoa_txt_nome="Pedro João"/>
+    <tb_reporter pessoa_id="20" reporter_txt_jornal="Globo"/>
+    
+    <tb_pessoa pessoa_disc="REP" pessoa_txt_nome="Beatriz costa"/>
+    <tb_reporter pessoa_id="21" reporter_txt_jornal="Record"/>
+    
+    <tb_pessoa pessoa_disc="REP" pessoa_txt_nome="Victor Henrique"/>
+    <tb_reporter pessoa_id="22" reporter_txt_jornal="Band"/>
+    
+    <tb_pessoa pessoa_disc="REP" pessoa_txt_nome="Amelia mel"/>
+    <tb_reporter pessoa_id="23" reporter_txt_jornal="Band"/>
+    
+    <tb_pessoa pessoa_disc="REP" pessoa_txt_nome="Beatriz carla"/>
+    <tb_reporter pessoa_id="24" reporter_txt_jornal="Band"/>
+    
+    <tb_pessoa pessoa_disc="REP" pessoa_txt_nome="Abestada toda"/>
+    <tb_reporter pessoa_id="25" reporter_txt_jornal="Band"/>
+    
+    <!--/REPORTER -->
+    
     <!-- DABATE -->
-    <tb_debate debate_txt_titulo="Agro é pop" data="2022-08-10" end_txt_bairro="Santo Amaro" end_txt_cep="50030-230" end_txt_cidade="Recife" end_txt_estado="Pernambuco" end_txt_logradouro="R. da Aurora" end_numero="1027" />
+    <tb_debate debate_descricao="Debate sobre agropecuária em 2022" debate_capacidade="10" pessoa_mediador_id="18" debate_txt_titulo="Agro é pop" data="2022-08-10" metadata='{"capacidade":9}' end_txt_bairro="Santo Amaro" end_txt_cep="50030-230" end_txt_cidade="Recife" end_txt_estado="Pernambuco" end_txt_logradouro="R. da Aurora" end_numero="1027" />
     <debate_categorias debate_id="1" debate_txt_categorias="Agropecuaria" />
     <debate_categorias debate_id="1" debate_txt_categorias="Setor Primário" />
     <debate_categorias debate_id="1" debate_txt_categorias="Exportação" />
@@ -81,8 +110,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
     <debate_participantes debate_id="1" politico_participante_id="12" />
     <debate_participantes debate_id="1" politico_participante_id="13" />
     <debate_participantes debate_id="1" politico_participante_id="14" />
+    <debate_reportes debate_id="1" reporter_participante_id="19" />
+    <debate_reportes debate_id="1" reporter_participante_id="20" />
     
-    <tb_debate debate_txt_titulo="Tecnologia" data="2022-12-12" end_txt_bairro="Santo Amaro" end_txt_cep="50030-230" end_txt_cidade="Recife" end_txt_estado="Pernambuco" end_txt_logradouro="R. da Aurora" end_numero="1027"/>
+    <tb_debate debate_descricao="As tecnologias mais utilizadas em 2022" debate_capacidade="15" pessoa_mediador_id="18" debate_txt_titulo="Tecnologia" data="2022-12-12"  metadata='{"capacidade":11}' end_txt_bairro="Santo Amaro" end_txt_cep="50030-230" end_txt_cidade="Recife" end_txt_estado="Pernambuco" end_txt_logradouro="R. da Aurora" end_numero="1027"/>
     <debate_categorias debate_id="2" debate_txt_categorias="Inovação" />
     <debate_categorias debate_id="2" debate_txt_categorias="Futuro" />
     <debate_categorias debate_id="2" debate_txt_categorias="Capacitação" />
@@ -90,8 +121,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
     <debate_participantes debate_id="2" politico_participante_id="6" />
     <debate_participantes debate_id="2" politico_participante_id="7" />
     <debate_participantes debate_id="2" politico_participante_id="8" />
+    <debate_reportes debate_id="2" reporter_participante_id="19" />
+    <debate_reportes debate_id="2" reporter_participante_id="20" />
     
-    <tb_debate debate_txt_titulo="Crescimento do agro no Brasil" data="2022-09-10" end_txt_bairro="Santo Amaro" end_txt_cep="50030-230" end_txt_cidade="Recife" end_txt_estado="Pernambuco" end_txt_logradouro="R. da Aurora" end_numero="1027" />
+    <tb_debate debate_descricao="Analise sobre o crescimento da agropecuária no brasil" debate_capacidade="10" pessoa_mediador_id="18" debate_txt_titulo="Crescimento do agro no Brasil" metadata='{"capacidade":14}'  data="2022-09-10" end_txt_bairro="Santo Amaro" end_txt_cep="50030-230" end_txt_cidade="Recife" end_txt_estado="Pernambuco" end_txt_logradouro="R. da Aurora" end_numero="1027" />
     <debate_categorias debate_id="3" debate_txt_categorias="Agropecuaria" />
     <debate_categorias debate_id="3" debate_txt_categorias="Setor Primário" />
     <debate_categorias debate_id="3" debate_txt_categorias="Exportação" />
@@ -101,6 +134,48 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
     <debate_participantes debate_id="3" politico_participante_id="12" />
     <debate_participantes debate_id="3" politico_participante_id="13" />
     <debate_participantes debate_id="3" politico_participante_id="14" />
+   <debate_reportes debate_id="3" reporter_participante_id="20" />
+   <debate_reportes debate_id="3" reporter_participante_id="19" />
+   <debate_reportes debate_id="3" reporter_participante_id="21" />
+   <debate_reportes debate_id="3" reporter_participante_id="22" />
+    
+    <tb_debate debate_descricao="Netbans é bom para usar no trabalho? obs: não" debate_capacidade="21" pessoa_mediador_id="19" debate_txt_titulo="Netbeans em ambiente real" metadata='{"capacidade":34}' data="2022-09-10" end_txt_bairro="Santo Amaro" end_txt_cep="50030-230" end_txt_cidade="Recife" end_txt_estado="Pernambuco" end_txt_logradouro="R. da Aurora" end_numero="1027" />
+    <debate_categorias debate_id="4" debate_txt_categorias="Mito" />
+    <debate_categorias debate_id="4" debate_txt_categorias="IDE" />
+    <debate_participantes debate_id="4" politico_participante_id="9" />
+    <debate_participantes debate_id="4" politico_participante_id="10" />
+    <debate_participantes debate_id="4" politico_participante_id="11" />
+    <debate_participantes debate_id="4" politico_participante_id="12" />
+    <debate_participantes debate_id="4" politico_participante_id="13" />
+    <debate_participantes debate_id="4" politico_participante_id="14" />
+   <debate_reportes debate_id="4" reporter_participante_id="20" />
+    
+    <tb_debate debate_descricao="A melhor IDE para desenvolvimento em java" debate_capacidade="30" pessoa_mediador_id="19" debate_txt_titulo="Eclipse te amo" data="2023-01-10" metadata='{"capacidade":20}' end_txt_bairro="Santo Amaro" end_txt_cep="50030-230" end_txt_cidade="Recife" end_txt_estado="Pernambuco" end_txt_logradouro="R. da Aurora" end_numero="1027" />
+    <debate_categorias debate_id="5" debate_txt_categorias="Amor" />
+    <debate_categorias debate_id="5" debate_txt_categorias="IDE" />
+    <debate_participantes debate_id="5" politico_participante_id="9" />
+    <debate_participantes debate_id="5" politico_participante_id="10" />
+    <debate_participantes debate_id="5" politico_participante_id="11" />
+    <debate_participantes debate_id="5" politico_participante_id="12" />
+    <debate_participantes debate_id="5" politico_participante_id="13" />
+    <debate_participantes debate_id="5" politico_participante_id="14" />
+    <debate_reportes debate_id="5" reporter_participante_id="21" />
+    
+    <tb_debate debate_descricao="HTML é linguagem de programação?" debate_capacidade="45" pessoa_mediador_id="19" debate_txt_titulo="Programador em HTML" data="2022-01-10" metadata='{"capacidade":50}' end_txt_bairro="Santo Amaro" end_txt_cep="50030-230" end_txt_cidade="Recife" end_txt_estado="Pernambuco" end_txt_logradouro="R. da Aurora" end_numero="1027" />
+    <debate_categorias debate_id="6" debate_txt_categorias="Front-end" />
+    <debate_categorias debate_id="6" debate_txt_categorias="Código" />
+    <debate_participantes debate_id="6" politico_participante_id="9" />
+    <debate_participantes debate_id="6" politico_participante_id="10" />
+    <debate_participantes debate_id="6" politico_participante_id="11" />
+    <debate_participantes debate_id="6" politico_participante_id="12" />
+    <debate_participantes debate_id="6" politico_participante_id="13" />
+    <debate_participantes debate_id="6" politico_participante_id="14" />
+    <debate_reportes debate_id="6" reporter_participante_id="22" />
+    
+    <tb_debate debate_descricao="Não" debate_capacidade="10" pessoa_mediador_id="19" debate_txt_titulo="Netbeans em projeto real?" metadata='{"capacidade":34}' data="2022-09-10" end_txt_bairro="Santo Amaro" end_txt_cep="50030-230" end_txt_cidade="Recife" end_txt_estado="Pernambuco" end_txt_logradouro="R. da Aurora" end_numero="1027" />
+    <debate_categorias debate_id="7" debate_txt_categorias="Mito" />
+    <debate_categorias debate_id="7" debate_txt_categorias="IDE" />
+    <debate_reportes debate_id="7" reporter_participante_id="20" />
     <!-- /DABATE -->
 
     

@@ -29,7 +29,7 @@ public class DbUnitUtil {
         IDatabaseConnection db_conn = null;
         try {
             conn = DriverManager.getConnection(
-                    "jdbc:derby://localhost:1527/indebate", "app", "app");
+                    "jdbc:derby://localhost:1527/indebate3", "app", "app");
             db_conn = new DatabaseConnection(conn);
             FlatXmlDataSetBuilder builder = new FlatXmlDataSetBuilder();
             builder.setColumnSensing(true);

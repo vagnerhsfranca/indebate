@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="34" failures="0" name="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" time="0.474" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="com.ifpe.dsc.indebate.testes.ReporterTeste" time="0.042" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.15.1+2-LTS-10"/>
@@ -65,38 +65,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarSumCapacidade" time="0.057"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarIsNotNull" time="0"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarLeftJoin1" time="0.031"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarLengthDescricao" time="0.016"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarIsEmpty" time="0.018"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarOrderByDescricao" time="0.005"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarDistinctTitulo" time="0.003"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarBetween2" time="0.013"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarSizeReportes" time="0.016"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarComIn" time="0.023"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarComOr" time="0.008"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarCount" time="0"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarLike1" time="0.02"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarLike2" time="0.01"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarLike3" time="0.01"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarIsNotEmpty" time="0.008"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarInnerJoin1" time="0.016"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarInnerJoin2" time="0.016"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarOrderByTitulo" time="0"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarBetween" time="0.015"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarInnerJoinComLikeComCount" time="0.018"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarSubString" time="0.011"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarIsEmpty2" time="0.004"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarInnerJoinComLike" time="0.021"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarComIn2" time="0.013"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarConcat" time="0.023"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarDebate" time="0.01"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarLengthTitulo" time="0.011"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarIsNull" time="0.003"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarSizeParticipantes" time="0.028"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarAvgCapacidade" time="0.005"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarMaxData" time="0.014"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarIsNotEmpty2" time="0.015"/>
-  <testcase classname="com.ifpe.dsc.indebate.testes.ConsultasDebateTeste" name="consultarMinData" time="0.013"/>
+  <testcase classname="com.ifpe.dsc.indebate.testes.ReporterTeste" name="persistirReporter" time="0.007"/>
+  <testcase classname="com.ifpe.dsc.indebate.testes.ReporterTeste" name="atualizarReporter" time="0.009"/>
+  <testcase classname="com.ifpe.dsc.indebate.testes.ReporterTeste" name="deletarReporter" time="0.009"/>
+  <testcase classname="com.ifpe.dsc.indebate.testes.ReporterTeste" name="atualizarReporterMerge" time="0.017"/>
 </testsuite>

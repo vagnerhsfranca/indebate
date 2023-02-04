@@ -25,10 +25,22 @@ import org.junit.Test;
  * @author Madson Rocha
  */
 public class PartidoTeste extends Teste {
+    
+    @Test
+    public void persistirPartido() {
+        
+        Partido partido = new Partido();
+        
+        partido.setNome("Partido persistido");
+        
+        em.persist(partido);
+        em.flush();
+        
+        assertNotNull(partido.getId());
 
+    }
     
-    
-        @Test
+    @Test
     public void atualizarPartido(){
         
         TypedQuery<Partido> query = em.createNamedQuery("Partido.PorNome", Partido.class);

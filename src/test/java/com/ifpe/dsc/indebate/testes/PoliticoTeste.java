@@ -2,6 +2,7 @@ package com.ifpe.dsc.indebate.testes;
 
 import com.ifpe.dsc.indebate.model.Debate;
 import com.ifpe.dsc.indebate.model.Politico;
+import com.ifpe.dsc.indebate.model.Reporter;
 import jakarta.persistence.TypedQuery;
 import java.util.List;
 import org.junit.Assert;
@@ -22,6 +23,20 @@ import org.junit.Test;
  * @author Vagner França
  */
 public class PoliticoTeste extends Teste{
+    
+    @Test
+    public void persistirPolitico() {
+        
+        Politico politico = new Politico();
+        
+        politico.setNome("Jãozim Levado");
+        
+        em.persist(politico);
+        em.flush();
+        
+        assertNotNull(politico.getIdPessoa());
+
+    }
     
     @Test
     public void atualizarPolitico(){
